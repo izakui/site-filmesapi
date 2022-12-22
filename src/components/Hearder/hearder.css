@@ -1,10 +1,14 @@
 header{
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     height: 60px;
-    background-color: #000000;
+    background-image: radial-gradient(circle at 76.49% 50%, #838d7a 0, #686b63 25%, #49484b 50%, #2a2834 75%, #0f0c22 100%);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
   }
   
   .logo{
@@ -13,6 +17,9 @@ header{
     cursor: pointer;
     color: #FFF;
     font-weight: bold;
+    position: absolute;
+	  right: 85%;
+	  
   }
 
   .favoritos{
@@ -22,4 +29,6 @@ header{
     padding: 5px 14px;
     color: #000000;
     border-radius: 4px;
+    position: absolute;
+    left: 80%;
   }
